@@ -9,10 +9,10 @@ console.log(addchar)
 
 const fullString = "hello world, hello JavaScript!";//3
 const slicedString= "hello";
-const count = fullString.split(slicedString).length - 1;//4
+const count = fullString.split(slicedString).length - 1;
 console.log(count);
 
-console.log(fullString.slice(27));
+console.log(fullString.slice(27));//4
 
 const  hobbies= "swimming, eating food, biking, and playing volleyball.";//5
 console.log(hobbies.slice(0,3));
@@ -25,12 +25,12 @@ console.log(ascendingOrder);
 const totalPrice="Total price is 1, 2 0  0    , 6 0 0 , 29 5 $     ";//7
 console.log(totalPrice.replaceAll(' ',''));
 
-const greet=`greeting`;//6
+const greet=`greeting`;//8
 console.log(greet.indexOf("t"));
 
-const removal = "Beriha wants to delete the first two letters from removal variables";//8
+const removal = "Beriha wants to delete the first two letters from removal variables";//9
 
-const removedchar = removal.slice(2);//9
+const removedchar = removal.slice(2);
 console.log(removedchar);
 
 console.log(removal.slice(0,[removal.length-2]));//10
